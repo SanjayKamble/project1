@@ -1,0 +1,21 @@
+{
+  "Users": [
+    
+    {
+      "typeOfEntity": "organization",
+      "nameOfOrganization": "sadasda",
+      "fullName": "adsad",
+      "emailId": "fdf@asdfds.co",
+      "countryCode": "91",
+      "phone": "46767888887",
+      "password": "aA2@",
+      "repeatPassword": "aA2@",
+      "id": "2023-02-17T04:23:40.108Z"
+    }
+  ],
+  "profile": [
+    {
+      "firstName": "ggg"
+    }
+  ]
+}
