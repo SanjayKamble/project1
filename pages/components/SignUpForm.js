@@ -4,6 +4,9 @@ import Link from 'next/link'
 import React, { useState, useReducer, useEffect } from 'react'
 import Image from 'next/image';
 import CountryPhone from './PhonePlugin/CountryPhone';
+import FilteringTable from '../table/FilteringTable';
+import {COLUMNS} from '../table/columns';
+
 
 
 const reducer = (state, action) => {
@@ -103,7 +106,7 @@ const SignUpForm = () => {
         if (state.password !== state.repeatPassword) setPasswordNotMatchingMessage(true);
         if (state.robot === false) setVerifyYourself(true);
 
-        console.log(state);
+        // console.log(state);
 
         fetch('http://localhost:3005/Users/', {
             method: 'POST',
@@ -124,11 +127,8 @@ const SignUpForm = () => {
             },
         }).then((response) => response.json())
             .then((result) => {
-                // alert("Record inserted")
-                console.log(result)
-                // getData()
-                // resetform();
-                // resetErrorMessage();
+                alert("Record inserted")
+                console.log(result);
             })
 
     }
@@ -187,17 +187,17 @@ const SignUpForm = () => {
 
     }, [state])
 
-    useEffect(() => {
+    // useEffect(() => {
       
     
       
-        fetch("http://localhost:3005/Users")
-            .then((response) => response.json())
-            .then((result) => {
-                console.log(result)
-            })
+    //     fetch("http://localhost:3005/Users")
+    //         .then((response) => response.json())
+    //         .then((result) => {
+    //             console.log(result)
+    //         })
     
-    }, [])
+    // }, [])
     
 
     return (

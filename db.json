@@ -1,6 +1,5 @@
 {
   "Users": [
-    
     {
       "typeOfEntity": "organization",
       "nameOfOrganization": "sadasda",
@@ -11,6 +10,83 @@
       "password": "aA2@",
       "repeatPassword": "aA2@",
       "id": "2023-02-17T04:23:40.108Z"
+    },
+    {
+      "typeOfEntity": "organization",
+      "nameOfOrganization": "school",
+      "fullName": "arush",
+      "emailId": "arush@school.com",
+      "countryCode": "91",
+      "phone": "4444444444",
+      "password": "aA2@",
+      "repeatPassword": "aA2@",
+      "id": "2023-02-17T06:48:12.145Z"
+    },
+    {
+      "typeOfEntity": "organization",
+      "nameOfOrganization": "school",
+      "fullName": "arush",
+      "emailId": "arush@school.com",
+      "countryCode": "91",
+      "phone": "4444444444",
+      "password": "aA2@",
+      "repeatPassword": "aA2@",
+      "id": "2023-02-17T06:48:49.745Z"
+    },
+    {
+      "typeOfEntity": "organization",
+      "nameOfOrganization": "school",
+      "fullName": "arush",
+      "emailId": "arush@school.com",
+      "countryCode": "91",
+      "phone": "4444444444",
+      "password": "aA2@",
+      "repeatPassword": "aA2@",
+      "id": "2023-02-17T06:54:24.209Z"
+    },
+    {
+      "typeOfEntity": "organization",
+      "nameOfOrganization": "asd",
+      "fullName": "asd",
+      "emailId": "a@s.com",
+      "countryCode": "94",
+      "phone": "23",
+      "password": "aA2@",
+      "repeatPassword": "aA2@",
+      "id": "2023-02-17T06:59:58.208Z"
+    },
+    {
+      "typeOfEntity": "organization",
+      "nameOfOrganization": "asd",
+      "fullName": "asd",
+      "emailId": "a@s.com",
+      "countryCode": "94",
+      "phone": "23",
+      "password": "aA2@",
+      "repeatPassword": "aA2@",
+      "id": "2023-02-17T07:03:34.105Z"
+    },
+    {
+      "typeOfEntity": "organization",
+      "nameOfOrganization": "asd",
+      "fullName": "asd",
+      "emailId": "a@s.com",
+      "countryCode": "94",
+      "phone": "23",
+      "password": "aA2@",
+      "repeatPassword": "aA2@",
+      "id": "2023-02-17T07:06:25.808Z"
+    },
+    {
+      "typeOfEntity": "organization",
+      "nameOfOrganization": "school",
+      "fullName": "atharv",
+      "emailId": "atharv@school.com",
+      "countryCode": "45",
+      "phone": "345678900-",
+      "password": "a@A2",
+      "repeatPassword": "a@A2",
+      "id": "2023-02-17T07:26:53.414Z"
     }
   ],
   "profile": [
